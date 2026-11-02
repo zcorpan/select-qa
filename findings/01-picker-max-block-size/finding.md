@@ -1,6 +1,6 @@
 # Customizable select: a tall `::picker(select)` isn't capped to the viewport, so options past its edge can't be reached
 
-**Target:** Bugzilla, Core :: Layout: Form Controls (customizable select,
+**Target:** Bugzilla, Core :: DOM: Core & HTML, filed as [bug 2088254](https://bugzil.la/2088254) (customizable select,
 `dom.select.customizable_select.enabled` + `layout.css.appearance-base.enabled`).
 
 With customizable select enabled in Firefox Nightly 161.0a1, a `base-select` picker taller than the

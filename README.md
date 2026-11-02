@@ -4,13 +4,13 @@ A quick, local-only run. It tested Firefox Nightly 161.0a1 with `dom.select.cust
 and `layout.css.appearance-base.enabled` on, against Chrome Canary 159.0.8136.0 and Nightly with
 both prefs off, on 98 Common Crawl pages with `<select>` and on local test pages built from them.
 Findings are in [`findings/`](findings/), one directory per cause, each with a test case and
-per-browser results. Nothing has been filed.
+per-browser results. Finding 01 is filed as [bug 2088254](https://bugzil.la/2088254).
 
 ## Findings, ranked by impact
 
 | # | Target | Issues | Finding |
 |---|---|---|---|
-| [01](findings/01-picker-max-block-size/finding.md) | Bugzilla, Core :: Layout: Form Controls | not filed | A tall `::picker(select)` isn't capped to the viewport; options past the edge are unreachable (UA style uses `-moz-available`, spec says `stretch`) |
+| [01](findings/01-picker-max-block-size/finding.md) | Bugzilla, Core :: DOM: Core & HTML | [bug 2088254](https://bugzil.la/2088254) | A tall `::picker(select)` isn't capped to the viewport; options past the edge are unreachable (UA style uses `-moz-available`, spec says `stretch`) |
 | [02](findings/02-picker-keyboard/finding.md) | Bugzilla | [bug 2071782](https://bugzil.la/2071782) (known) | Keyboard can't move through or commit options in the picker |
 
 ## Findings in the infrastructure the feature builds on
