@@ -1,0 +1,10 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>appearance: auto select with content the old parser dropped (div, span, img inside)</title>
+<style>body { font: 16px/1.4 sans-serif; margin: 20px; }</style>
+<select id="s">
+ <div class="group"><option value="a">Alpha <span class="n">(3)</span></option><option value="b" selected>Beta <img alt="*" width="8" height="8"></option></div>
+ <span>stray text</span>
+ <option value="c">Gamma</option>
+</select>
+<script src="common.js"></script>

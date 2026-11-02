@@ -1,0 +1,50 @@
+{
+ "stats": {
+  "pages": 98,
+  "B pages with select API calls": 88,
+  "B pages with a base-select select": 5,
+  "A pages with a base-select select": 5,
+  "flag feature_errors": 4,
+  "flag feature": 2,
+  "flag feature_console": 1
+ },
+ "flags": [
+  {
+   "url": "https://vapko.ch/th/",
+   "feature_errors": [
+    "Image corrupt or truncated."
+   ]
+  },
+  {
+   "url": "https://listelist.com/unutulmaz-gazete-mansetleri/",
+   "feature_errors": [
+    "Error: N CMP not found."
+   ]
+  },
+  {
+   "url": "https://www.bestwestern.com/de_DE/book/lakewood/hotel-rooms/best-western-denver-southwest/propertyCode.06170.html",
+   "feature": [
+    "count 2 vs 0"
+   ],
+   "feature_errors": [
+    "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at <url> from being executed because it violates the following directive: \u201cscript-src 'unsafe-i",
+    "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a worker script (worker-src) at <url> from being executed because it violates the following directive: \u201cscript-src 'unsafe",
+    "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a worker script (worker-src) at blob:<url> from being executed because it violates the following directive: \u201cscript-src 'u",
+    "Cookie \u201c__cf_bm\u201d has been rejected for invalid domain."
+   ]
+  },
+  {
+   "url": "http://divivu.com/Y-te-Suc-khoe/Thiet-bi-Y-te/c3493-3915/CAN-SUC-KHOE.html",
+   "feature": [
+    "count 2 vs 0"
+   ],
+   "feature_errors": [
+    "Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block a script (script-src-elem) at <url> from being executed because it violates the following directive: \u201cscript-src 'unsafe-i"
+   ],
+   "feature_console": [
+    "error: Sign-in error: Error: NetworkError when attempting to fetch resource.",
+    "error: [OktaWidget] Login error: Error: NetworkError when attempting to fetch resource."
+   ]
+  }
+ ]
+}

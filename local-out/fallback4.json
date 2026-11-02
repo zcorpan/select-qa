@@ -1,0 +1,530 @@
+{
+ "A": {
+  "f1-select-fallback.html": {
+   "verdict": "inside viewport, above anchor",
+   "open": true,
+   "anchor": {
+    "x": 670,
+    "y": 562,
+    "width": 120,
+    "height": 28,
+    "top": 562,
+    "right": 790,
+    "bottom": 590,
+    "left": 670
+   },
+   "panel": {
+    "left": 577.828125,
+    "top": 369,
+    "right": 789,
+    "bottom": 561
+   },
+   "vw": 800,
+   "vh": 600
+  },
+  "f2-popover-fallback.html": {
+   "verdict": "inside viewport, above anchor",
+   "open": true,
+   "anchor": {
+    "x": 670,
+    "y": 569,
+    "width": 120,
+    "height": 21,
+    "top": 569,
+    "right": 790,
+    "bottom": 590,
+    "left": 670
+   },
+   "panel": {
+    "left": 596.90625,
+    "top": 391,
+    "right": 790,
+    "bottom": 569
+   },
+   "vw": 800,
+   "vh": 600
+  },
+  "f3-select-fallback-in-fixed.html": {
+   "verdict": "inside viewport, above anchor",
+   "open": true,
+   "anchor": {
+    "x": 670,
+    "y": 562,
+    "width": 120,
+    "height": 28,
+    "top": 562,
+    "right": 790,
+    "bottom": 590,
+    "left": 670
+   },
+   "panel": {
+    "left": 577.828125,
+    "top": 369,
+    "right": 789,
+    "bottom": 561
+   },
+   "vw": 800,
+   "vh": 600
+  },
+  "f4-popover-fallback-in-fixed.html": {
+   "verdict": "inside viewport, above anchor",
+   "open": true,
+   "anchor": {
+    "x": 670,
+    "y": 569,
+    "width": 120,
+    "height": 21,
+    "top": 569,
+    "right": 790,
+    "bottom": 590,
+    "left": 670
+   },
+   "panel": {
+    "left": 596.90625,
+    "top": 391,
+    "right": 790,
+    "bottom": 569
+   },
+   "vw": 800,
+   "vh": 600
+  },
+  "f5-select-fallback-tall.html": {
+   "verdict": "overflows viewport, below anchor",
+   "open": true,
+   "anchor": {
+    "x": 670,
+    "y": 472,
+    "width": 120,
+    "height": 28,
+    "top": 472,
+    "right": 790,
+    "bottom": 500,
+    "left": 670
+   },
+   "panel": {
+    "left": 671,
+    "top": 1,
+    "right": 789,
+    "bottom": 961
+   },
+   "vw": 800,
+   "vh": 600
+  },
+  "f6-popover-fallback-tall.html": {
+   "verdict": "inside viewport, above anchor",
+   "open": true,
+   "anchor": {
+    "x": 670,
+    "y": 479,
+    "width": 120,
+    "height": 21,
+    "top": 479,
+    "right": 790,
+    "bottom": 500,
+    "left": 670
+   },
+   "panel": {
+    "left": 670,
+    "top": 0,
+    "right": 790,
+    "bottom": 479
+   },
+   "vw": 800,
+   "vh": 600
+  },
+  "f7-stretch-only.html": {
+   "verdict": "inside viewport, below anchor",
+   "open": true,
+   "anchor": {
+    "x": 670,
+    "y": 479,
+    "width": 120,
+    "height": 21,
+    "top": 479,
+    "right": 790,
+    "bottom": 500,
+    "left": 670
+   },
+   "panel": {
+    "left": 670,
+    "top": 500,
+    "right": 752.453125,
+    "bottom": 600
+   },
+   "vw": 800,
+   "vh": 600,
+   "maxBlockSize": "stretch"
+  },
+  "f8-moz-available-only.html": {
+   "verdict": "overflows viewport, below anchor",
+   "open": true,
+   "anchor": {
+    "x": 670,
+    "y": 479,
+    "width": 120,
+    "height": 21,
+    "top": 479,
+    "right": 790,
+    "bottom": 500,
+    "left": 670
+   },
+   "panel": {
+    "left": 670,
+    "top": 0,
+    "right": 752.453125,
+    "bottom": 882
+   },
+   "vw": 800,
+   "vh": 600,
+   "maxBlockSize": "none"
+  },
+  "version": "159.0.8136.0"
+ },
+ "B": {
+  "version": "161.0a1",
+  "f1-select-fallback.html": {
+   "verdict": "inside viewport, above anchor",
+   "anchor": {
+    "bottom": 590.0000305175781,
+    "height": 31.600006103515625,
+    "left": 670,
+    "right": 790,
+    "top": 558.4000244140625,
+    "width": 120,
+    "x": 670,
+    "y": 558.4000244140625
+   },
+   "open": true,
+   "panel": {
+    "bottom": 557.4000244140625,
+    "left": 576.7833251953125,
+    "right": 788.9999847412109,
+    "top": 365.3999938964844
+   },
+   "vh": 600,
+   "vw": 800
+  },
+  "f2-popover-fallback.html": {
+   "verdict": "inside viewport, above anchor",
+   "anchor": {
+    "bottom": 590,
+    "height": 22,
+    "left": 670,
+    "right": 790,
+    "top": 568,
+    "width": 120,
+    "x": 670,
+    "y": 568
+   },
+   "open": true,
+   "panel": {
+    "bottom": 568,
+    "left": 596.0166625976562,
+    "right": 790,
+    "top": 380.3999938964844
+   },
+   "vh": 600,
+   "vw": 800
+  },
+  "f3-select-fallback-in-fixed.html": {
+   "verdict": "inside viewport, above anchor",
+   "anchor": {
+    "bottom": 590.0000305175781,
+    "height": 31.600006103515625,
+    "left": 670,
+    "right": 790,
+    "top": 558.4000244140625,
+    "width": 120,
+    "x": 670,
+    "y": 558.4000244140625
+   },
+   "open": true,
+   "panel": {
+    "bottom": 557.4000244140625,
+    "left": 576.7833251953125,
+    "right": 788.9999847412109,
+    "top": 365.3999938964844
+   },
+   "vh": 600,
+   "vw": 800
+  },
+  "f4-popover-fallback-in-fixed.html": {
+   "verdict": "inside viewport, above anchor",
+   "anchor": {
+    "bottom": 590,
+    "height": 22,
+    "left": 670,
+    "right": 790,
+    "top": 568,
+    "width": 120,
+    "x": 670,
+    "y": 568
+   },
+   "open": true,
+   "panel": {
+    "bottom": 568,
+    "left": 596.0166625976562,
+    "right": 790,
+    "top": 380.3999938964844
+   },
+   "vh": 600,
+   "vw": 800
+  },
+  "f5-select-fallback-tall.html": {
+   "verdict": "overflows viewport, below anchor",
+   "anchor": {
+    "bottom": 500,
+    "height": 31.600006103515625,
+    "left": 670,
+    "right": 790,
+    "top": 468.3999938964844,
+    "width": 120,
+    "x": 670,
+    "y": 468.3999938964844
+   },
+   "open": true,
+   "panel": {
+    "bottom": 1461,
+    "left": 671,
+    "right": 789,
+    "top": 501
+   },
+   "vh": 600,
+   "vw": 800
+  },
+  "f6-popover-fallback-tall.html": {
+   "verdict": "overflows viewport, below anchor",
+   "anchor": {
+    "bottom": 500,
+    "height": 22,
+    "left": 670,
+    "right": 790,
+    "top": 478,
+    "width": 120,
+    "x": 670,
+    "y": 478
+   },
+   "open": true,
+   "panel": {
+    "bottom": 1430,
+    "left": 670,
+    "right": 790,
+    "top": 500
+   },
+   "vh": 600,
+   "vw": 800
+  },
+  "f7-stretch-only.html": {
+   "verdict": "overflows viewport, below anchor",
+   "anchor": {
+    "bottom": 500,
+    "height": 22,
+    "left": 670,
+    "right": 790,
+    "top": 478,
+    "width": 120,
+    "x": 670,
+    "y": 478
+   },
+   "maxBlockSize": "none",
+   "open": true,
+   "panel": {
+    "bottom": 1430,
+    "left": 670,
+    "right": 752.4499969482422,
+    "top": 500
+   },
+   "vh": 600,
+   "vw": 800
+  },
+  "f8-moz-available-only.html": {
+   "verdict": "overflows viewport, below anchor",
+   "anchor": {
+    "bottom": 500,
+    "height": 22,
+    "left": 670,
+    "right": 790,
+    "top": 478,
+    "width": 120,
+    "x": 670,
+    "y": 478
+   },
+   "maxBlockSize": "-moz-available",
+   "open": true,
+   "panel": {
+    "bottom": 1430,
+    "left": 670,
+    "right": 752.4499969482422,
+    "top": 500
+   },
+   "vh": 600,
+   "vw": 800
+  }
+ },
+ "C": {
+  "version": "161.0a1",
+  "f1-select-fallback.html": {
+   "verdict": "no panel",
+   "anchor": {
+    "bottom": 590,
+    "height": 22,
+    "left": 670,
+    "right": 790,
+    "top": 568,
+    "width": 120,
+    "x": 670,
+    "y": 568
+   },
+   "open": true,
+   "panel": null,
+   "vh": 600,
+   "vw": 800
+  },
+  "f2-popover-fallback.html": {
+   "verdict": "inside viewport, above anchor",
+   "anchor": {
+    "bottom": 590,
+    "height": 22,
+    "left": 670,
+    "right": 790,
+    "top": 568,
+    "width": 120,
+    "x": 670,
+    "y": 568
+   },
+   "open": true,
+   "panel": {
+    "bottom": 568,
+    "left": 596.0166625976562,
+    "right": 790,
+    "top": 380.3999938964844
+   },
+   "vh": 600,
+   "vw": 800
+  },
+  "f3-select-fallback-in-fixed.html": {
+   "verdict": "no panel",
+   "anchor": {
+    "bottom": 590,
+    "height": 22,
+    "left": 670,
+    "right": 790,
+    "top": 568,
+    "width": 120,
+    "x": 670,
+    "y": 568
+   },
+   "open": true,
+   "panel": null,
+   "vh": 600,
+   "vw": 800
+  },
+  "f4-popover-fallback-in-fixed.html": {
+   "verdict": "inside viewport, above anchor",
+   "anchor": {
+    "bottom": 590,
+    "height": 22,
+    "left": 670,
+    "right": 790,
+    "top": 568,
+    "width": 120,
+    "x": 670,
+    "y": 568
+   },
+   "open": true,
+   "panel": {
+    "bottom": 568,
+    "left": 596.0166625976562,
+    "right": 790,
+    "top": 380.3999938964844
+   },
+   "vh": 600,
+   "vw": 800
+  },
+  "f5-select-fallback-tall.html": {
+   "verdict": "no panel",
+   "anchor": {
+    "bottom": 500,
+    "height": 22,
+    "left": 670,
+    "right": 790,
+    "top": 478,
+    "width": 120,
+    "x": 670,
+    "y": 478
+   },
+   "open": true,
+   "panel": null,
+   "vh": 600,
+   "vw": 800
+  },
+  "f6-popover-fallback-tall.html": {
+   "verdict": "overflows viewport, below anchor",
+   "anchor": {
+    "bottom": 500,
+    "height": 22,
+    "left": 670,
+    "right": 790,
+    "top": 478,
+    "width": 120,
+    "x": 670,
+    "y": 478
+   },
+   "open": true,
+   "panel": {
+    "bottom": 1430,
+    "left": 670,
+    "right": 790,
+    "top": 500
+   },
+   "vh": 600,
+   "vw": 800
+  },
+  "f7-stretch-only.html": {
+   "verdict": "overflows viewport, below anchor",
+   "anchor": {
+    "bottom": 500,
+    "height": 22,
+    "left": 670,
+    "right": 790,
+    "top": 478,
+    "width": 120,
+    "x": 670,
+    "y": 478
+   },
+   "maxBlockSize": "none",
+   "open": true,
+   "panel": {
+    "bottom": 1430,
+    "left": 670,
+    "right": 752.4499969482422,
+    "top": 500
+   },
+   "vh": 600,
+   "vw": 800
+  },
+  "f8-moz-available-only.html": {
+   "verdict": "overflows viewport, below anchor",
+   "anchor": {
+    "bottom": 500,
+    "height": 22,
+    "left": 670,
+    "right": 790,
+    "top": 478,
+    "width": 120,
+    "x": 670,
+    "y": 478
+   },
+   "maxBlockSize": "-moz-available",
+   "open": true,
+   "panel": {
+    "bottom": 1430,
+    "left": 670,
+    "right": 752.4499969482422,
+    "top": 500
+   },
+   "vh": 600,
+   "vw": 800
+  }
+ }
+}

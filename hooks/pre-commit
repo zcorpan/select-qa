@@ -1,0 +1,6 @@
+#!/bin/sh
+# Installed with: git config core.hooksPath hooks
+PY=.venv/bin/python
+[ -x "$PY" ] || PY=python3
+# Crawl data (Common Crawl URLs, not recorded by us): scan output and the page lists sampled from it.
+exec "$PY" publish_check.py --staged --crawl=scan/pages.jsonl,pages-*.txt,pages-*.json

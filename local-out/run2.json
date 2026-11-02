@@ -1,0 +1,5118 @@
+{
+ "A": {
+  "t1-picker-flags.html": [
+   [
+    "load",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      111,
+      34
+     ],
+     "value": "en",
+     "idx": 0,
+     "open": false,
+     "focused": false,
+     "active": "body",
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='red'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> English",
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": []
+    }
+   ],
+   [
+    "click select",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      111,
+      34
+     ],
+     "value": "en",
+     "idx": 0,
+     "open": true,
+     "focused": true,
+     "active": "option=en",
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='red'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> English",
+     "options": [
+      [
+       25,
+       82,
+       146,
+       24
+      ],
+      [
+       25,
+       106,
+       146,
+       24
+      ],
+      [
+       25,
+       152,
+       146,
+       24
+      ]
+     ],
+     "log": [
+      "mousedown:select",
+      "click:select"
+     ]
+    }
+   ],
+   [
+    "click last option",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      143,
+      34
+     ],
+     "value": "uk",
+     "idx": 2,
+     "open": false,
+     "focused": true,
+     "active": "select=uk",
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='blue'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> Українська",
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "mousedown:option",
+      "input:select",
+      "change:select",
+      "click:option"
+     ]
+    }
+   ],
+   [
+    "Tab",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      111,
+      34
+     ],
+     "value": "en",
+     "idx": 0,
+     "open": false,
+     "focused": true,
+     "active": "select=en",
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='red'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> English",
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:body"
+     ]
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      111,
+      34
+     ],
+     "value": "en",
+     "idx": 0,
+     "open": true,
+     "focused": true,
+     "active": "option=en",
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='red'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> English",
+     "options": [
+      [
+       25,
+       82,
+       146,
+       24
+      ],
+      [
+       25,
+       106,
+       146,
+       24
+      ],
+      [
+       25,
+       152,
+       146,
+       24
+      ]
+     ],
+     "log": [
+      "keydown:select"
+     ]
+    }
+   ],
+   [
+    "Enter",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      111,
+      34
+     ],
+     "value": "en",
+     "idx": 0,
+     "open": false,
+     "focused": true,
+     "active": "select=en",
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='red'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> English",
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:option"
+     ]
+    }
+   ],
+   [
+    "Escape",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      111,
+      34
+     ],
+     "value": "en",
+     "idx": 0,
+     "open": false,
+     "focused": true,
+     "active": "select=en",
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='red'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> English",
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:select"
+     ]
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      111,
+      34
+     ],
+     "value": "en",
+     "idx": 0,
+     "open": true,
+     "focused": true,
+     "active": "option=en",
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='red'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> English",
+     "options": [
+      [
+       25,
+       82,
+       146,
+       24
+      ],
+      [
+       25,
+       106,
+       146,
+       24
+      ],
+      [
+       25,
+       152,
+       146,
+       24
+      ]
+     ],
+     "log": [
+      "keydown:select"
+     ]
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      111,
+      34
+     ],
+     "value": "en",
+     "idx": 0,
+     "open": true,
+     "focused": true,
+     "active": "option=es",
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='red'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> English",
+     "options": [
+      [
+       25,
+       82,
+       146,
+       24
+      ],
+      [
+       25,
+       106,
+       146,
+       24
+      ],
+      [
+       25,
+       152,
+       146,
+       24
+      ]
+     ],
+     "log": [
+      "keydown:option"
+     ]
+    }
+   ],
+   [
+    "Enter",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      117,
+      34
+     ],
+     "value": "es",
+     "idx": 1,
+     "open": false,
+     "focused": true,
+     "active": "select=es",
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='gold'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> Español",
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:option",
+      "input:select",
+      "change:select"
+     ]
+    }
+   ],
+   [
+    "Tab",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      117,
+      34
+     ],
+     "value": "es",
+     "idx": 1,
+     "open": false,
+     "focused": false,
+     "active": "body",
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='gold'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> Español",
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:select"
+     ]
+    }
+   ],
+   [
+    "Space",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      117,
+      34
+     ],
+     "value": "es",
+     "idx": 1,
+     "open": false,
+     "focused": false,
+     "active": "body",
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='gold'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> Español",
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:body"
+     ]
+    }
+   ],
+   [
+    "ArrowUp",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      117,
+      34
+     ],
+     "value": "es",
+     "idx": 1,
+     "open": false,
+     "focused": false,
+     "active": "body",
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='gold'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> Español",
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:body"
+     ]
+    }
+   ],
+   [
+    "Space",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      117,
+      34
+     ],
+     "value": "es",
+     "idx": 1,
+     "open": false,
+     "focused": false,
+     "active": "body",
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='gold'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> Español",
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:body"
+     ]
+    }
+   ]
+  ],
+  "t2-nested-selectedcontent.html": [
+   [
+    "load",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      199,
+      32
+     ],
+     "value": "/de",
+     "idx": 1,
+     "open": false,
+     "focused": false,
+     "active": "body",
+     "selectedcontent": "Deutschland (Deutsch)",
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": []
+    }
+   ],
+   [
+    "click select",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      199,
+      32
+     ],
+     "value": "/de",
+     "idx": 1,
+     "open": true,
+     "focused": true,
+     "active": "option=/de",
+     "selectedcontent": "Deutschland (Deutsch)",
+     "options": [
+      [
+       21,
+       53,
+       218,
+       24
+      ],
+      [
+       21,
+       77,
+       218,
+       24
+      ],
+      [
+       21,
+       101,
+       218,
+       24
+      ]
+     ],
+     "log": [
+      "mousedown:select",
+      "click:select"
+     ]
+    }
+   ],
+   [
+    "click last option",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      217,
+      32
+     ],
+     "value": "/en",
+     "idx": 2,
+     "open": false,
+     "focused": true,
+     "active": "select=/en",
+     "selectedcontent": "United Kingdom (English)",
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "mousedown:option",
+      "input:select",
+      "change:select",
+      "click:option"
+     ]
+    }
+   ],
+   [
+    "Tab",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      199,
+      32
+     ],
+     "value": "/de",
+     "idx": 1,
+     "open": false,
+     "focused": true,
+     "active": "select=/de",
+     "selectedcontent": "Deutschland (Deutsch)",
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:body"
+     ]
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      199,
+      32
+     ],
+     "value": "/de",
+     "idx": 1,
+     "open": true,
+     "focused": true,
+     "active": "option=/de",
+     "selectedcontent": "Deutschland (Deutsch)",
+     "options": [
+      [
+       21,
+       53,
+       218,
+       24
+      ],
+      [
+       21,
+       77,
+       218,
+       24
+      ],
+      [
+       21,
+       101,
+       218,
+       24
+      ]
+     ],
+     "log": [
+      "keydown:select"
+     ]
+    }
+   ],
+   [
+    "Enter",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      199,
+      32
+     ],
+     "value": "/de",
+     "idx": 1,
+     "open": false,
+     "focused": true,
+     "active": "select=/de",
+     "selectedcontent": "Deutschland (Deutsch)",
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:option"
+     ]
+    }
+   ],
+   [
+    "Escape",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      199,
+      32
+     ],
+     "value": "/de",
+     "idx": 1,
+     "open": false,
+     "focused": true,
+     "active": "select=/de",
+     "selectedcontent": "Deutschland (Deutsch)",
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:select"
+     ]
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      199,
+      32
+     ],
+     "value": "/de",
+     "idx": 1,
+     "open": true,
+     "focused": true,
+     "active": "option=/de",
+     "selectedcontent": "Deutschland (Deutsch)",
+     "options": [
+      [
+       21,
+       53,
+       218,
+       24
+      ],
+      [
+       21,
+       77,
+       218,
+       24
+      ],
+      [
+       21,
+       101,
+       218,
+       24
+      ]
+     ],
+     "log": [
+      "keydown:select"
+     ]
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      199,
+      32
+     ],
+     "value": "/de",
+     "idx": 1,
+     "open": true,
+     "focused": true,
+     "active": "option=/en",
+     "selectedcontent": "Deutschland (Deutsch)",
+     "options": [
+      [
+       21,
+       53,
+       218,
+       24
+      ],
+      [
+       21,
+       77,
+       218,
+       24
+      ],
+      [
+       21,
+       101,
+       218,
+       24
+      ]
+     ],
+     "log": [
+      "keydown:option"
+     ]
+    }
+   ],
+   [
+    "Enter",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      217,
+      32
+     ],
+     "value": "/en",
+     "idx": 2,
+     "open": false,
+     "focused": true,
+     "active": "select=/en",
+     "selectedcontent": "United Kingdom (English)",
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:option",
+      "input:select",
+      "change:select"
+     ]
+    }
+   ],
+   [
+    "Tab",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      217,
+      32
+     ],
+     "value": "/en",
+     "idx": 2,
+     "open": false,
+     "focused": false,
+     "active": "body",
+     "selectedcontent": "United Kingdom (English)",
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:select"
+     ]
+    }
+   ],
+   [
+    "Space",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      217,
+      32
+     ],
+     "value": "/en",
+     "idx": 2,
+     "open": false,
+     "focused": false,
+     "active": "body",
+     "selectedcontent": "United Kingdom (English)",
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:body"
+     ]
+    }
+   ],
+   [
+    "ArrowUp",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      217,
+      32
+     ],
+     "value": "/en",
+     "idx": 2,
+     "open": false,
+     "focused": false,
+     "active": "body",
+     "selectedcontent": "United Kingdom (English)",
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:body"
+     ]
+    }
+   ],
+   [
+    "Space",
+    {
+     "app": "base-select",
+     "display": "inline-flex",
+     "rect": [
+      20,
+      20,
+      217,
+      32
+     ],
+     "value": "/en",
+     "idx": 2,
+     "open": false,
+     "focused": false,
+     "active": "body",
+     "selectedcontent": "United Kingdom (English)",
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:body"
+     ]
+    }
+   ]
+  ],
+  "t3-legacy-rich.html": [
+   [
+    "load",
+    {
+     "app": "auto",
+     "display": "inline-block",
+     "rect": [
+      20,
+      22,
+      73,
+      19
+     ],
+     "value": "b",
+     "idx": 1,
+     "open": false,
+     "focused": false,
+     "active": "body",
+     "selectedcontent": null,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": []
+    }
+   ],
+   [
+    "click select",
+    {
+     "app": "auto",
+     "display": "inline-block",
+     "rect": [
+      20,
+      22,
+      73,
+      19
+     ],
+     "value": "b",
+     "idx": 1,
+     "open": false,
+     "focused": true,
+     "active": "select=b",
+     "selectedcontent": null,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "mousedown:select",
+      "click:select"
+     ]
+    }
+   ],
+   [
+    "Tab",
+    {
+     "app": "auto",
+     "display": "inline-block",
+     "rect": [
+      20,
+      22,
+      73,
+      19
+     ],
+     "value": "b",
+     "idx": 1,
+     "open": false,
+     "focused": true,
+     "active": "select=b",
+     "selectedcontent": null,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:body"
+     ]
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "app": "auto",
+     "display": "inline-block",
+     "rect": [
+      20,
+      22,
+      73,
+      19
+     ],
+     "value": "b",
+     "idx": 1,
+     "open": false,
+     "focused": true,
+     "active": "select=b",
+     "selectedcontent": null,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:select"
+     ]
+    }
+   ],
+   [
+    "Enter",
+    {
+     "app": "auto",
+     "display": "inline-block",
+     "rect": [
+      20,
+      22,
+      73,
+      19
+     ],
+     "value": "b",
+     "idx": 1,
+     "open": false,
+     "focused": true,
+     "active": "select=b",
+     "selectedcontent": null,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:select"
+     ]
+    }
+   ],
+   [
+    "Escape",
+    {
+     "app": "auto",
+     "display": "inline-block",
+     "rect": [
+      20,
+      22,
+      73,
+      19
+     ],
+     "value": "b",
+     "idx": 1,
+     "open": false,
+     "focused": true,
+     "active": "select=b",
+     "selectedcontent": null,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:select"
+     ]
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "app": "auto",
+     "display": "inline-block",
+     "rect": [
+      20,
+      22,
+      73,
+      19
+     ],
+     "value": "b",
+     "idx": 1,
+     "open": false,
+     "focused": true,
+     "active": "select=b",
+     "selectedcontent": null,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:select"
+     ]
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "app": "auto",
+     "display": "inline-block",
+     "rect": [
+      20,
+      22,
+      73,
+      19
+     ],
+     "value": "b",
+     "idx": 1,
+     "open": false,
+     "focused": true,
+     "active": "select=b",
+     "selectedcontent": null,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:select"
+     ]
+    }
+   ],
+   [
+    "Enter",
+    {
+     "app": "auto",
+     "display": "inline-block",
+     "rect": [
+      20,
+      22,
+      73,
+      19
+     ],
+     "value": "b",
+     "idx": 1,
+     "open": false,
+     "focused": true,
+     "active": "select=b",
+     "selectedcontent": null,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:select"
+     ]
+    }
+   ],
+   [
+    "Tab",
+    {
+     "app": "auto",
+     "display": "inline-block",
+     "rect": [
+      20,
+      22,
+      73,
+      19
+     ],
+     "value": "b",
+     "idx": 1,
+     "open": false,
+     "focused": false,
+     "active": "body",
+     "selectedcontent": null,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:select"
+     ]
+    }
+   ],
+   [
+    "Space",
+    {
+     "app": "auto",
+     "display": "inline-block",
+     "rect": [
+      20,
+      22,
+      73,
+      19
+     ],
+     "value": "b",
+     "idx": 1,
+     "open": false,
+     "focused": false,
+     "active": "body",
+     "selectedcontent": null,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:body"
+     ]
+    }
+   ],
+   [
+    "ArrowUp",
+    {
+     "app": "auto",
+     "display": "inline-block",
+     "rect": [
+      20,
+      22,
+      73,
+      19
+     ],
+     "value": "b",
+     "idx": 1,
+     "open": false,
+     "focused": false,
+     "active": "body",
+     "selectedcontent": null,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:body"
+     ]
+    }
+   ],
+   [
+    "Space",
+    {
+     "app": "auto",
+     "display": "inline-block",
+     "rect": [
+      20,
+      22,
+      73,
+      19
+     ],
+     "value": "b",
+     "idx": 1,
+     "open": false,
+     "focused": false,
+     "active": "body",
+     "selectedcontent": null,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "log": [
+      "keydown:body"
+     ]
+    }
+   ]
+  ],
+  "version": "159.0.8136.0"
+ },
+ "B": {
+  "version": "161.0a1",
+  "t1-picker-flags.html": [
+   [
+    "load",
+    {
+     "active": "body",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": false,
+     "idx": 0,
+     "log": [],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      111,
+      35
+     ],
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='red'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> English",
+     "value": "en"
+    }
+   ],
+   [
+    "click select",
+    {
+     "active": "select=en",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": true,
+     "idx": 0,
+     "log": [
+      "mousedown:selectedcontent",
+      "click:selectedcontent"
+     ],
+     "open": true,
+     "options": [
+      [
+       25,
+       82,
+       146,
+       24
+      ],
+      [
+       25,
+       106,
+       146,
+       24
+      ],
+      [
+       25,
+       153,
+       146,
+       24
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      111,
+      35
+     ],
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='red'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> English",
+     "value": "en"
+    }
+   ],
+   [
+    "click last option",
+    {
+     "active": "select=uk",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": true,
+     "idx": 2,
+     "log": [
+      "mousedown:option",
+      "input:select",
+      "change:select",
+      "click:option"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      142,
+      35
+     ],
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='blue'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> Українська",
+     "value": "uk"
+    }
+   ],
+   [
+    "Tab",
+    {
+     "active": "select=en",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": true,
+     "idx": 0,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      111,
+      35
+     ],
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='red'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> English",
+     "value": "en"
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "active": "select=en",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": true,
+     "idx": 0,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       25,
+       82,
+       146,
+       24
+      ],
+      [
+       25,
+       106,
+       146,
+       24
+      ],
+      [
+       25,
+       153,
+       146,
+       24
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      111,
+      35
+     ],
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='red'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> English",
+     "value": "en"
+    }
+   ],
+   [
+    "Enter",
+    {
+     "active": "select=en",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": true,
+     "idx": 0,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       25,
+       82,
+       146,
+       24
+      ],
+      [
+       25,
+       106,
+       146,
+       24
+      ],
+      [
+       25,
+       153,
+       146,
+       24
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      111,
+      35
+     ],
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='red'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> English",
+     "value": "en"
+    }
+   ],
+   [
+    "Escape",
+    {
+     "active": "select=en",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": true,
+     "idx": 0,
+     "log": [
+      "keydown:select"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      111,
+      35
+     ],
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='red'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> English",
+     "value": "en"
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "active": "select=en",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": true,
+     "idx": 0,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       25,
+       82,
+       146,
+       24
+      ],
+      [
+       25,
+       106,
+       146,
+       24
+      ],
+      [
+       25,
+       153,
+       146,
+       24
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      111,
+      35
+     ],
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='red'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> English",
+     "value": "en"
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "active": "select=en",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": true,
+     "idx": 0,
+     "log": [
+      "keydown:select"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      111,
+      35
+     ],
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='red'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> English",
+     "value": "en"
+    }
+   ],
+   [
+    "Enter",
+    {
+     "active": "select=en",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": true,
+     "idx": 0,
+     "log": [
+      "keydown:select"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      111,
+      35
+     ],
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='red'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> English",
+     "value": "en"
+    }
+   ],
+   [
+    "Tab",
+    {
+     "active": "body",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": false,
+     "idx": 0,
+     "log": [
+      "keydown:select"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      111,
+      35
+     ],
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='red'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> English",
+     "value": "en"
+    }
+   ],
+   [
+    "Space",
+    {
+     "active": "body",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": false,
+     "idx": 0,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      111,
+      35
+     ],
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='red'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> English",
+     "value": "en"
+    }
+   ],
+   [
+    "ArrowUp",
+    {
+     "active": "body",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": false,
+     "idx": 0,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      111,
+      35
+     ],
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='red'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> English",
+     "value": "en"
+    }
+   ],
+   [
+    "Space",
+    {
+     "active": "body",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": false,
+     "idx": 0,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      111,
+      35
+     ],
+     "selectedcontent": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Crect width='18' height='18' fill='red'/%3E%3C/svg%3E\" alt=\"\" width=\"18\" height=\"18\"> English",
+     "value": "en"
+    }
+   ]
+  ],
+  "t2-nested-selectedcontent.html": [
+   [
+    "load",
+    {
+     "active": "body",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": false,
+     "idx": 1,
+     "log": [],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      199,
+      32
+     ],
+     "selectedcontent": "Deutschland (Deutsch)",
+     "value": "/de"
+    }
+   ],
+   [
+    "click select",
+    {
+     "active": "select=/de",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "mousedown:selectedcontent",
+      "click:selectedcontent"
+     ],
+     "open": true,
+     "options": [
+      [
+       21,
+       53,
+       218,
+       24
+      ],
+      [
+       21,
+       77,
+       218,
+       24
+      ],
+      [
+       21,
+       101,
+       218,
+       24
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      199,
+      32
+     ],
+     "selectedcontent": "Deutschland (Deutsch)",
+     "value": "/de"
+    }
+   ],
+   [
+    "click last option",
+    {
+     "active": "select=/en",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": true,
+     "idx": 2,
+     "log": [
+      "mousedown:option",
+      "input:select",
+      "change:select",
+      "click:option"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      217,
+      32
+     ],
+     "selectedcontent": "United Kingdom (English)",
+     "value": "/en"
+    }
+   ],
+   [
+    "Tab",
+    {
+     "active": "select=/de",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      199,
+      32
+     ],
+     "selectedcontent": "Deutschland (Deutsch)",
+     "value": "/de"
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "active": "select=/de",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       21,
+       53,
+       218,
+       24
+      ],
+      [
+       21,
+       77,
+       218,
+       24
+      ],
+      [
+       21,
+       101,
+       218,
+       24
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      199,
+      32
+     ],
+     "selectedcontent": "Deutschland (Deutsch)",
+     "value": "/de"
+    }
+   ],
+   [
+    "Enter",
+    {
+     "active": "select=/de",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       21,
+       53,
+       218,
+       24
+      ],
+      [
+       21,
+       77,
+       218,
+       24
+      ],
+      [
+       21,
+       101,
+       218,
+       24
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      199,
+      32
+     ],
+     "selectedcontent": "Deutschland (Deutsch)",
+     "value": "/de"
+    }
+   ],
+   [
+    "Escape",
+    {
+     "active": "select=/de",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      199,
+      32
+     ],
+     "selectedcontent": "Deutschland (Deutsch)",
+     "value": "/de"
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "active": "select=/de",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       21,
+       53,
+       218,
+       24
+      ],
+      [
+       21,
+       77,
+       218,
+       24
+      ],
+      [
+       21,
+       101,
+       218,
+       24
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      199,
+      32
+     ],
+     "selectedcontent": "Deutschland (Deutsch)",
+     "value": "/de"
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "active": "select=/de",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      199,
+      32
+     ],
+     "selectedcontent": "Deutschland (Deutsch)",
+     "value": "/de"
+    }
+   ],
+   [
+    "Enter",
+    {
+     "active": "select=/de",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      199,
+      32
+     ],
+     "selectedcontent": "Deutschland (Deutsch)",
+     "value": "/de"
+    }
+   ],
+   [
+    "Tab",
+    {
+     "active": "body",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": false,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      199,
+      32
+     ],
+     "selectedcontent": "Deutschland (Deutsch)",
+     "value": "/de"
+    }
+   ],
+   [
+    "Space",
+    {
+     "active": "body",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": false,
+     "idx": 1,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      199,
+      32
+     ],
+     "selectedcontent": "Deutschland (Deutsch)",
+     "value": "/de"
+    }
+   ],
+   [
+    "ArrowUp",
+    {
+     "active": "body",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": false,
+     "idx": 1,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      199,
+      32
+     ],
+     "selectedcontent": "Deutschland (Deutsch)",
+     "value": "/de"
+    }
+   ],
+   [
+    "Space",
+    {
+     "active": "body",
+     "app": "base-select",
+     "display": "inline-flex",
+     "focused": false,
+     "idx": 1,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      199,
+      32
+     ],
+     "selectedcontent": "Deutschland (Deutsch)",
+     "value": "/de"
+    }
+   ]
+  ],
+  "t3-legacy-rich.html": [
+   [
+    "load",
+    {
+     "active": "body",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": false,
+     "idx": 1,
+     "log": [],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "click select",
+    {
+     "active": "select=b",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "mousedown:select",
+      "click:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "Tab",
+    {
+     "active": "select=b",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "active": "select=b",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "Enter",
+    {
+     "active": "select=b",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "Escape",
+    {
+     "active": "select=b",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "active": "select=b",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "active": "select=b",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "Enter",
+    {
+     "active": "select=b",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "Tab",
+    {
+     "active": "body",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": false,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "Space",
+    {
+     "active": "body",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": false,
+     "idx": 1,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "ArrowUp",
+    {
+     "active": "body",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": false,
+     "idx": 1,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "Space",
+    {
+     "active": "body",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": false,
+     "idx": 1,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ]
+  ]
+ },
+ "C": {
+  "version": "161.0a1",
+  "t1-picker-flags.html": [
+   [
+    "load",
+    {
+     "active": "body",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": false,
+     "idx": 0,
+     "log": [],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      100,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "en"
+    }
+   ],
+   [
+    "click select",
+    {
+     "active": "select=en",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 0,
+     "log": [
+      "mousedown:select",
+      "click:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      100,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "en"
+    }
+   ],
+   [
+    "Tab",
+    {
+     "active": "select=en",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 0,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      100,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "en"
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "active": "select=en",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 0,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      100,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "en"
+    }
+   ],
+   [
+    "Enter",
+    {
+     "active": "select=en",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 0,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      100,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "en"
+    }
+   ],
+   [
+    "Escape",
+    {
+     "active": "select=en",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 0,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      100,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "en"
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "active": "select=en",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 0,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      100,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "en"
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "active": "select=en",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 0,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      100,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "en"
+    }
+   ],
+   [
+    "Enter",
+    {
+     "active": "select=en",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 0,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      100,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "en"
+    }
+   ],
+   [
+    "Tab",
+    {
+     "active": "body",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": false,
+     "idx": 0,
+     "log": [
+      "keydown:select"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      100,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "en"
+    }
+   ],
+   [
+    "Space",
+    {
+     "active": "body",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": false,
+     "idx": 0,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      100,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "en"
+    }
+   ],
+   [
+    "ArrowUp",
+    {
+     "active": "body",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": false,
+     "idx": 0,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      100,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "en"
+    }
+   ],
+   [
+    "Space",
+    {
+     "active": "body",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": false,
+     "idx": 0,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      100,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "en"
+    }
+   ]
+  ],
+  "t2-nested-selectedcontent.html": [
+   [
+    "load",
+    {
+     "active": "body",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": false,
+     "idx": 1,
+     "log": [],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      188,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "/de"
+    }
+   ],
+   [
+    "click select",
+    {
+     "active": "select=/de",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "mousedown:select",
+      "click:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      188,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "/de"
+    }
+   ],
+   [
+    "Tab",
+    {
+     "active": "select=/de",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      188,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "/de"
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "active": "select=/de",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      188,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "/de"
+    }
+   ],
+   [
+    "Enter",
+    {
+     "active": "select=/de",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      188,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "/de"
+    }
+   ],
+   [
+    "Escape",
+    {
+     "active": "select=/de",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      188,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "/de"
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "active": "select=/de",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      188,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "/de"
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "active": "select=/de",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      188,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "/de"
+    }
+   ],
+   [
+    "Enter",
+    {
+     "active": "select=/de",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      188,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "/de"
+    }
+   ],
+   [
+    "Tab",
+    {
+     "active": "body",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": false,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      188,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "/de"
+    }
+   ],
+   [
+    "Space",
+    {
+     "active": "body",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": false,
+     "idx": 1,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      188,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "/de"
+    }
+   ],
+   [
+    "ArrowUp",
+    {
+     "active": "body",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": false,
+     "idx": 1,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      188,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "/de"
+    }
+   ],
+   [
+    "Space",
+    {
+     "active": "body",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": false,
+     "idx": 1,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      188,
+      22
+     ],
+     "selectedcontent": "",
+     "value": "/de"
+    }
+   ]
+  ],
+  "t3-legacy-rich.html": [
+   [
+    "load",
+    {
+     "active": "body",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": false,
+     "idx": 1,
+     "log": [],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "click select",
+    {
+     "active": "select=b",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "mousedown:select",
+      "click:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "Tab",
+    {
+     "active": "select=b",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "active": "select=b",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "Enter",
+    {
+     "active": "select=b",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "Escape",
+    {
+     "active": "select=b",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "active": "select=b",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "ArrowDown",
+    {
+     "active": "select=b",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "Enter",
+    {
+     "active": "select=b",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": true,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": true,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "Tab",
+    {
+     "active": "body",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": false,
+     "idx": 1,
+     "log": [
+      "keydown:select"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "Space",
+    {
+     "active": "body",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": false,
+     "idx": 1,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "ArrowUp",
+    {
+     "active": "body",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": false,
+     "idx": 1,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ],
+   [
+    "Space",
+    {
+     "active": "body",
+     "app": "auto",
+     "display": "inline-block",
+     "focused": false,
+     "idx": 1,
+     "log": [
+      "keydown:body"
+     ],
+     "open": false,
+     "options": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ],
+     "rect": [
+      20,
+      20,
+      87,
+      22
+     ],
+     "selectedcontent": null,
+     "value": "b"
+    }
+   ]
+  ]
+ }
+}

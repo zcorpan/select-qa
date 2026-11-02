@@ -1,0 +1,2 @@
+open True options inside viewport [0, 1, 2, 3]
+after wheel: open True options inside viewport [0, 1, 2, 3] scrollY 0

@@ -1,0 +1,30 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Control: plain anchored popover, anchor inside a position: fixed container</title>
+<style>
+html, body { margin: 0; height: 100%; }
+#nav { position: fixed; top: 0; right: 0; width: 300px; height: 100%; }
+#trigger { position: absolute; right: 10px; bottom: 10px; width: 120px; anchor-name: --a; }
+#panel {
+  position-anchor: --a; box-sizing: border-box; border: 1px solid; padding: 0; margin: 0; inset: auto;
+  min-inline-size: anchor-size(self-inline); max-block-size: stretch; overflow: auto;
+  position-area: self-block-end span-self-inline-end;
+  position-try-order: most-block-size;
+  position-try-fallbacks: self-block-start span-self-inline-end, self-block-end span-self-inline-start,
+    self-block-start span-self-inline-start;
+}
+#panel div { padding: 2px 8px; white-space: nowrap; }
+</style>
+<nav id="nav"><button id="trigger" popovertarget="panel">Open</button>
+</nav>
+<div id="panel" popover>
+ <div>One</div><div>Two</div><div>Three</div><div>A much longer option label</div>
+ <div>Five</div><div>Six</div><div>Seven</div><div>Eight</div>
+</div>
+<script>
+window.measure = () => {
+  const p = document.getElementById('panel'), r = p.getBoundingClientRect();
+  return {open: p.matches(':popover-open'), anchor: document.getElementById('trigger').getBoundingClientRect().toJSON(),
+          panel: r.width ? {left: r.left, top: r.top, right: r.right, bottom: r.bottom} : null, vw: innerWidth, vh: innerHeight};
+};
+</script>

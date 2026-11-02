@@ -1,0 +1,22 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>selectedcontent nested in button > div with an svg icon (artheroes.com pattern)</title>
+<style>
+.m, .m::picker(select) { appearance: base-select; }
+.m > button > div { display: flex; align-items: center; gap: 8px; }
+.m::picker-icon { display: none; }
+body { font: 16px/1.4 sans-serif; margin: 20px; }
+</style>
+<svg style="display:none"><symbol id="chev" viewBox="0 0 10 6"><path d="M0 0l5 6 5-6z"/></symbol></svg>
+<select class="form-control m" name="destinationUrl" id="s">
+ <button>
+  <div>
+   <selectedcontent></selectedcontent>
+   <svg width="10" height="6" aria-hidden="true" role="img"><use href="#chev"></use></svg>
+  </div>
+ </button>
+ <option value="/nl">Nederland (Nederlands)</option>
+ <option value="/de" selected>Deutschland (Deutsch)</option>
+ <option value="/en">United Kingdom (English)</option>
+</select>
+<script src="common.js"></script>

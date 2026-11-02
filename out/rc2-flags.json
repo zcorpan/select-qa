@@ -1,0 +1,23 @@
+{
+ "stats": {
+  "pages": 4,
+  "B pages with select API calls": 2,
+  "B pages with a base-select select": 0,
+  "A pages with a base-select select": 0,
+  "flag feature_errors": 2
+ },
+ "flags": [
+  {
+   "url": "https://www.bestwestern.com/de_DE/book/lakewood/hotel-rooms/best-western-denver-southwest/propertyCode.06170.html",
+   "feature_errors": [
+    "Cookie \u201c__cf_bm\u201d has been rejected for invalid domain."
+   ]
+  },
+  {
+   "url": "http://divivu.com/Y-te-Suc-khoe/Thiet-bi-Y-te/c3493-3915/CAN-SUC-KHOE.html",
+   "feature_errors": [
+    "Cookie \u201c__cf_bm\u201d has been rejected for invalid domain."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Control: anchored popover below the anchor, no fallbacks: max-block-size: stretch should cap it to the space below</title>
+<style>
+html, body { margin: 0; height: 100%; }
+#trigger { position: fixed; right: 10px; bottom: 100px; width: 120px; anchor-name: --a; }
+#panel { position-anchor: --a; margin: 0; inset: auto; padding: 0; border: 1px solid; box-sizing: border-box;
+  position-area: self-block-end span-self-inline-end; max-block-size: stretch; overflow: auto; }
+#panel div { padding: 2px 8px; white-space: nowrap; }
+</style>
+<button id="trigger" popovertarget="panel">Open</button>
+<div id="panel" popover></div>
+<script>
+for (let i = 0; i < 40; i++) panel.append(Object.assign(document.createElement('div'), {textContent: 'Option ' + i}));
+window.measure = () => {
+  const p = document.getElementById('panel'), r = p.getBoundingClientRect();
+  return {open: p.matches(':popover-open'), anchor: document.getElementById('trigger').getBoundingClientRect().toJSON(),
+          panel: r.width ? {left: r.left, top: r.top, right: r.right, bottom: r.bottom} : null, vw: innerWidth, vh: innerHeight,
+          maxBlockSize: getComputedStyle(p).maxBlockSize};
+};
+</script>

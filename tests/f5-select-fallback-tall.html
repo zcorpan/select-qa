@@ -1,0 +1,21 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>base-select picker taller than the space above and below the select: should take the side with more room (position-try-order: most-block-size) and be capped (max-block-size: stretch)</title>
+<style>
+html, body { margin: 0; height: 100%; }
+select, ::picker(select) { appearance: base-select; }
+#trigger { position: fixed; right: 10px; bottom: 100px; width: 120px; }
+</style>
+<select id="trigger">
+ <option>Option 0</option><option>Option 1</option><option>Option 2</option><option>Option 3</option><option>Option 4</option><option>Option 5</option><option>Option 6</option><option>Option 7</option><option>Option 8</option><option>Option 9</option><option>Option 10</option><option>Option 11</option><option>Option 12</option><option>Option 13</option><option>Option 14</option><option>Option 15</option><option>Option 16</option><option>Option 17</option><option>Option 18</option><option>Option 19</option><option>Option 20</option><option>Option 21</option><option>Option 22</option><option>Option 23</option><option>Option 24</option><option>Option 25</option><option>Option 26</option><option>Option 27</option><option>Option 28</option><option>Option 29</option><option>Option 30</option><option>Option 31</option><option>Option 32</option><option>Option 33</option><option>Option 34</option><option>Option 35</option><option>Option 36</option><option>Option 37</option><option>Option 38</option><option>Option 39</option>
+</select>
+<script>
+window.measure = () => {
+  const s = document.getElementById('trigger');
+  const rs = [...s.options].map(o => o.getBoundingClientRect()).filter(r => r.width);
+  const u = rs.length ? {left: Math.min(...rs.map(r => r.left)), top: Math.min(...rs.map(r => r.top)),
+    right: Math.max(...rs.map(r => r.right)), bottom: Math.max(...rs.map(r => r.bottom))} : null;
+  let open = null; try { open = s.matches(':open'); } catch (e) {}
+  return {open, anchor: s.getBoundingClientRect().toJSON(), panel: u, vw: innerWidth, vh: innerHeight};
+};
+</script>

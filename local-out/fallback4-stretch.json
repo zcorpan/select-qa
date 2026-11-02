@@ -1,0 +1,183 @@
+{
+ "B+stretch": {
+  "version": "161.0a1",
+  "f1-select-fallback.html": {
+   "verdict": "inside viewport, above anchor",
+   "anchor": {
+    "bottom": 590.0000305175781,
+    "height": 31.600006103515625,
+    "left": 670,
+    "right": 790,
+    "top": 558.4000244140625,
+    "width": 120,
+    "x": 670,
+    "y": 558.4000244140625
+   },
+   "open": true,
+   "panel": {
+    "bottom": 557.4000244140625,
+    "left": 576.7833251953125,
+    "right": 788.9999847412109,
+    "top": 365.3999938964844
+   },
+   "vh": 600,
+   "vw": 800
+  },
+  "f2-popover-fallback.html": {
+   "verdict": "inside viewport, above anchor",
+   "anchor": {
+    "bottom": 590,
+    "height": 22,
+    "left": 670,
+    "right": 790,
+    "top": 568,
+    "width": 120,
+    "x": 670,
+    "y": 568
+   },
+   "open": true,
+   "panel": {
+    "bottom": 568,
+    "left": 596.0166625976562,
+    "right": 790,
+    "top": 380.3999938964844
+   },
+   "vh": 600,
+   "vw": 800
+  },
+  "f3-select-fallback-in-fixed.html": {
+   "verdict": "inside viewport, above anchor",
+   "anchor": {
+    "bottom": 590.0000305175781,
+    "height": 31.600006103515625,
+    "left": 670,
+    "right": 790,
+    "top": 558.4000244140625,
+    "width": 120,
+    "x": 670,
+    "y": 558.4000244140625
+   },
+   "open": true,
+   "panel": {
+    "bottom": 557.4000244140625,
+    "left": 576.7833251953125,
+    "right": 788.9999847412109,
+    "top": 365.3999938964844
+   },
+   "vh": 600,
+   "vw": 800
+  },
+  "f4-popover-fallback-in-fixed.html": {
+   "verdict": "inside viewport, above anchor",
+   "anchor": {
+    "bottom": 590,
+    "height": 22,
+    "left": 670,
+    "right": 790,
+    "top": 568,
+    "width": 120,
+    "x": 670,
+    "y": 568
+   },
+   "open": true,
+   "panel": {
+    "bottom": 568,
+    "left": 596.0166625976562,
+    "right": 790,
+    "top": 380.3999938964844
+   },
+   "vh": 600,
+   "vw": 800
+  },
+  "f5-select-fallback-tall.html": {
+   "verdict": "overflows viewport, below anchor",
+   "anchor": {
+    "bottom": 500,
+    "height": 31.600006103515625,
+    "left": 670,
+    "right": 790,
+    "top": 468.3999938964844,
+    "width": 120,
+    "x": 670,
+    "y": 468.3999938964844
+   },
+   "open": true,
+   "panel": {
+    "bottom": 1461,
+    "left": 671,
+    "right": 789,
+    "top": 501
+   },
+   "vh": 600,
+   "vw": 800
+  },
+  "f6-popover-fallback-tall.html": {
+   "verdict": "inside viewport, above anchor",
+   "anchor": {
+    "bottom": 500,
+    "height": 22,
+    "left": 670,
+    "right": 790,
+    "top": 478,
+    "width": 120,
+    "x": 670,
+    "y": 478
+   },
+   "open": true,
+   "panel": {
+    "bottom": 478,
+    "left": 670,
+    "right": 790,
+    "top": 0
+   },
+   "vh": 600,
+   "vw": 800
+  },
+  "f7-stretch-only.html": {
+   "verdict": "inside viewport, below anchor",
+   "anchor": {
+    "bottom": 500,
+    "height": 22,
+    "left": 670,
+    "right": 790,
+    "top": 478,
+    "width": 120,
+    "x": 670,
+    "y": 478
+   },
+   "maxBlockSize": "stretch",
+   "open": true,
+   "panel": {
+    "bottom": 600,
+    "left": 670,
+    "right": 752.4499969482422,
+    "top": 500
+   },
+   "vh": 600,
+   "vw": 800
+  },
+  "f8-moz-available-only.html": {
+   "verdict": "overflows viewport, below anchor",
+   "anchor": {
+    "bottom": 500,
+    "height": 22,
+    "left": 670,
+    "right": 790,
+    "top": 478,
+    "width": 120,
+    "x": 670,
+    "y": 478
+   },
+   "maxBlockSize": "-moz-available",
+   "open": true,
+   "panel": {
+    "bottom": 1430,
+    "left": 670,
+    "right": 752.4499969482422,
+    "top": 500
+   },
+   "vh": 600,
+   "vw": 800
+  }
+ }
+}

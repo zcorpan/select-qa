@@ -1,0 +1,22 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>base-select picker near the bottom-right corner should flip to stay in the viewport</title>
+<style>
+html, body { margin: 0; height: 100%; }
+select, ::picker(select) { appearance: base-select; }
+#trigger { position: fixed; right: 10px; bottom: 10px; width: 120px; }
+</style>
+<select id="trigger">
+ <option>One</option><option>Two</option><option>Three</option><option>A much longer option label</option>
+ <option>Five</option><option>Six</option><option>Seven</option><option>Eight</option>
+</select>
+<script>
+window.measure = () => {
+  const s = document.getElementById('trigger');
+  const rs = [...s.options].map(o => o.getBoundingClientRect()).filter(r => r.width);
+  const u = rs.length ? {left: Math.min(...rs.map(r => r.left)), top: Math.min(...rs.map(r => r.top)),
+    right: Math.max(...rs.map(r => r.right)), bottom: Math.max(...rs.map(r => r.bottom))} : null;
+  let open = null; try { open = s.matches(':open'); } catch (e) {}
+  return {open, anchor: s.getBoundingClientRect().toJSON(), panel: u, vw: innerWidth, vh: innerHeight};
+};
+</script>

@@ -1,0 +1,9 @@
+{
+ "stats": {
+  "pages": 4,
+  "B pages with select API calls": 1,
+  "B pages with a base-select select": 0,
+  "A pages with a base-select select": 0
+ },
+ "flags": []
+}
