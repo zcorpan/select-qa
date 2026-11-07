@@ -59,7 +59,7 @@ warnings. [`analyze_qa.py`](analyze_qa.py) flags B≠C in select state, B-only e
 messages, B≠A where C=A and A=A2, and `base-select` selects whose size in B is far off A.
 
 Stopping rule: one batch plus rechecks, then targeted interaction on the customizable-select sites
-and local tests (scope agreed for a quick run).
+and local tests (a quick run).
 
 ### Page results
 
@@ -98,7 +98,7 @@ crawl has too few of them to say more.
 
 ## Why the run stopped here
 
-The agreed quick scope (one batch, rechecks, targeted interaction, local tests) is done. Few pages
+The quick scope (one batch, rechecks, targeted interaction, local tests) is done. Few pages
 use customizable select (3 hosts in 256k pages), so a bigger random batch wouldn't reach new code
 paths. A follow-up would need pages found by their CSS (`::picker(select)`) in HTTP Archive and
 pages that build customizable selects from script.
