@@ -105,6 +105,8 @@ pages that build customizable selects from script.
 
 ## Reproduce
 
+This run was done with the [`httparchive-qa` skill](https://github.com/zcorpan/web-platform-skills/blob/main/docs/httparchive.md). The steps below are standalone and rerun the same analysis without the skill.
+
 ```sh
 python3 -m venv .venv && .venv/bin/pip install warcio selenium playwright pillow
 .venv/bin/python -I scan/scan.py ~/git/commoncrawl/cc-data/CC-MAIN-2026-39 scan/pages.jsonl
